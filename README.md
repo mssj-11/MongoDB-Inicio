@@ -6,8 +6,8 @@ Las colecciones en MongoDB son como tablas en una base de datos SQL, pero son gr
 **Ejemplo:**
 *	Usuarios:<br>
 	-	name: mike
-	-	created: 18/02/23 <br>
-Se guardan en un objetoJSON, por ejemplo:
+	-	created: 18/02/23 
+<br>Se guardan en un objeto JSON, por ejemplo:
 ```js
 //  Campo: Valor
 {
@@ -23,8 +23,11 @@ La coleccion(**documentos**) es un **objeto con sus propios datos** (name, age, 
 
 
 Comandos comunes:
-*	**show dbs**: Muestra la base de datos
-
+*	**show dbs**: Muestra las bases de datos.
+*	**db**: Muestra la base de datos actual.
+*	**use NOMBRE_DB**: Usa una nueva base de datos - Pero es necesario agregar almenos 1 datos para que se cree la base de datos.
+*	****: .
+*	****: .
 
 
 
