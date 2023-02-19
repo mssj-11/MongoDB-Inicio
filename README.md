@@ -5,12 +5,12 @@
 Las colecciones en MongoDB son como tablas en una base de datos SQL, pero son grupos de documentos en lugar de grupos de registros, por ejemplo puedo tener una coleccion de datos (usuarios, productos, categorias, vendedores, etc.)<br>
 **Ejemplo:**
 *	Usuarios:<br>
-**	name: mike
-**	created: 18/02/23
+-	name: mike
+-	created: 18/02/23
 Se guardan en un objetoJSON, por ejemplo:
-```js
-//  Campo: Valor
+```json
 {
+//  Campo: Valor
   name: "adrian",
   age: 26,
   status: "A",
@@ -22,7 +22,8 @@ La coleccion(**documentos**) es un **objeto con sus propios datos** (name, age, 
 
 
 
-
+Comandos comunes:
+*	**show dbs**: Muestra la base de datos
 
 
 
