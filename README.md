@@ -8,7 +8,7 @@ Las colecciones en MongoDB son como tablas en una base de datos SQL, pero son gr
 **	name: mike
 **	created: 18/02/23
 Se guardan en un objetoJSON, por ejemplo:
-```json
+```js
 //  Campo: Valor
 {
   name: "adrian",
