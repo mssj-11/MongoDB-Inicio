@@ -1,6 +1,23 @@
 #	MongoDB
 
 
+##	Colecciones: 
+Las colecciones en MongoDB son como tablas en una base de datos SQL, pero son grupos de documentos en lugar de grupos de registros, por ejemplo puedo tener una coleccion de datos (usuarios, productos, categorias, vendedores, etc.)<br>
+**Ejemplo:**
+*	Usuarios:
+**	name: mike
+**	created: 18/02/23
+Se guardan en un objetoJSON, por ejemplo:
+```json
+//  Campo: Valor
+{
+  name: "adrian",
+  age: 26,
+  status: "A",
+  groups: [ "news", "sports" ]  
+}
+```
+La coleccion(**documentos**) es un **objeto con sus propios datos** (name, age, status, groups, etc.) pero con valores diferentes.<br>
 
 
 
@@ -27,7 +44,7 @@
 
 
 
-
+#	Requisitos previos:
 ##	[Descargar](https://www.mongodb.com/try/download/community)
 Consultar la version: `mongod -version` la versión actual es: 6.0.4
 
